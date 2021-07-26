@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  ecr-tutorial:
+    build: .
+    tty: true
+    image: ecr-tutorial
+    ports:
+      - '127.0.0.1:9000:8080'
